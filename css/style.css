@@ -35,11 +35,34 @@ body {
     /*faz a div ficar "flutuando" à esquerda*/
 }
 
-.geral {
-    width: 75%;
-    float: right;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.tsm {
+    height: 8px;
 }
+
+.sm { 
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 94px;
+}
+
+.habilidades{
+    font-size: 20px;
+    font-weight: bold;
+    fontfamily: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
+}
+
+.hab {
+    height: 4px;
+    text-align: justify;
+    padding-left: 10px;
+}
+
+.fhab {
+    height: 10px;
+    text-align: justify;
+    padding-left: 10px;
 
 .nome {
     color: #335384;
@@ -58,11 +81,19 @@ body {
     color: #5ba7d1;
 }
 
-.habilidades {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-left: 30px;
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    heigt: 60px;
+    border-top: 1px solid black;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+}        
+    
+.geral hr {
+    width: 95%;
 }
 
 
